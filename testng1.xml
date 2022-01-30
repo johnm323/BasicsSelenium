@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/N510513/IdeaProjects/BasicsSelenium/src/test/java/TestngBasics">
+        <classes>
+            <class name="TestngBasics.AnnotationDemo">
+                <methods>
+                    <include name="TestOne" />
+                    <include name="TestTwo" />
+                    <include name="TestThree" />
+                </methods>
+            </class>
+            <class name="TestngBasics.BasicAssertion">
+                <methods>
+                    <include name="AssertTest" />
+                </methods>
+            </class>
+            <class name="TestngBasics.GroupTestDemo">
+                <methods>
+                    <include name="Test1" />
+                    <include name="Test3" />
+                    <include name="Test4" />
+                </methods>
+            </class>
+            <class name="TestngBasics.SoftAssertDemo">
+                <methods>
+                    <include name="SoftAssertTest" />
+                </methods>
+            </class>
+            <class name="TestngBasics.TestAnnotation_Demo_Demo">
+                <methods>
+                    <include name="LoginTest" />
+                    <include name="HomeScreen" />
+                    <include name="LogoutTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
